@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 
@@ -28,7 +30,7 @@ export default function HeadNav() {
 
             <NavbarContent className='flex gap-[1.6vw]' justify='center'>
                     <NavbarItem>
-                        <Link href='/service' aria-current="page" className='uppercase text-[3vw] md:text-[1.1vw] tracking-[0.3vw] text-prim'>
+                        <Link href='/services' aria-current="page" className='uppercase text-[3vw] md:text-[1.1vw] tracking-[0.3vw] text-prim'>
                             Service
                         </Link>
                     </NavbarItem>
