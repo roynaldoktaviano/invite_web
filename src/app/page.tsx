@@ -21,7 +21,7 @@ export default function page() {
             <div className='grid grid-cols-3 px-[4.5vw] gap-[3.6vw] mt-[4vh] w-full h-full'>
               <div className='w-full relative h-fit'>
                 <img src="./img_1.png" alt="Undangan Acara Wedding" className='w-[25vw] ml-auto' />
-                <img src="./flower.png" alt="Flower Vector" className='w-[12vw] absolute bottom-[72vh] md:bottom-0 z-[-1]' />
+                <img src="./flower.png" alt="Flower Vector" className='w-[12vw] absolute bottom-[72vh] md:bottom-[-9vh] z-[-1]' />
               </div>
 
               <div className='w-full relative pt-[5vh] md:pt-[9.6vh] h-fit'>
