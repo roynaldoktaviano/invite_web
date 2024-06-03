@@ -1,9 +1,7 @@
-"use client"
-
 import React from 'react'
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 
-export default function headNav() {
+export default function HeadNav() {
     
     const [iseMenuOpen, setMenuOpen] = React.useState(false);
     const menuItems = [

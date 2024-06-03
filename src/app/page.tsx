@@ -1,14 +1,14 @@
 "use client"
 
 import React from 'react'
-import headNav from './component/headNav'
 import ButtonGold from './component/ButtonGold'
 import TestimonyBox from './component/TestimonyBox'
+import HeadNav from './component/headNav'
 
 export default function page() {
   return (
     <section>
-      {headNav()}
+      <HeadNav/>
 
       <section className='hero w-full h-fit md:h-screen  flex  relative over '>
         <div className='w-full h-[37vh] md:h-screen absolute bg-half-round bg-cover md:bg-contain bg-no-repeat md:bg-repeat-round'></div>
