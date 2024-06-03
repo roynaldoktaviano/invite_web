@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import Provider from "./provider";
+import footerNav from "./component/footerNav";
 
 const inter = Libre_Franklin({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Provider>
           {children}
+          {footerNav()}
         </Provider>
       </body>
     </html>

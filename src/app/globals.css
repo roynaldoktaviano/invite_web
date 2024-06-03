@@ -18,9 +18,6 @@ h1, h2 {
   font-family: "Newsreader", serif;
 }
 
-.half-round {
-  clip-path: inset(0 0 0 0 round 0% 0% 40% 40%);
-}
 
 @layer utilities {
   .text-balance {

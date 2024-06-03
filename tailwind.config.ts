@@ -15,9 +15,15 @@ module.exports = {
     colors: {
       'prim' : '#422A03',
       'cream' : '#FFF6E7',
-      'emas' : '#CEAA72'
+      'emas' : '#CEAA72',
+      'brown': '#6F4606',
+      'white' : '#FFF2DF' 
     },
-    extend: {},
+    extend: {
+      backgroundImage : {
+        'half-round' : 'url("/bg-con.png")'
+      }
+    },
   },
   darkMode: "class",
   plugins: [nextui()],

@@ -10,11 +10,11 @@ export default function headNav() {
     ]
     
     return (
-        <Navbar onMenuOpenChange={setMenuOpen} className='absolute w-96 mx-auto bg-cream'>
-            <NavbarContent className='hidden sm:flex gap-4' justify='center'>
+        <Navbar onMenuOpenChange={setMenuOpen} className='absolute w-full md:w-[40vw] py-[1vh] md:py-[3vh] mx-auto bg-cream'>
+            <NavbarContent className='hidden sm:flex gap-[1.6vw]' justify='center'>
                 <NavbarMenuToggle aria-label={iseMenuOpen ? "Close Menu" : "Open Menu"} className='sm:hidden'/>
                     <NavbarItem>
-                        <Link href='/' aria-current="page" className='uppercase text-sm tracking-widest text-prim'>
+                        <Link href='/' aria-current="page" className='uppercase text-[1.1vw] tracking-[0.3vw] text-prim'>
                             Home
                         </Link>
                     </NavbarItem>
@@ -22,13 +22,13 @@ export default function headNav() {
 
             <NavbarContent className='' justify='center'>
                 <NavbarBrand>
-                    <img src="./logo.png" alt="Logo Invite You" className='w-32'/>
+                    <img src="./logo.png" alt="Logo Invite You" className='w-[20vw] md:w-[15vw]'/>
                 </NavbarBrand>
             </NavbarContent>
 
-            <NavbarContent className='hidden sm:flex gap-4' justify='center'>
+            <NavbarContent className='flex gap-[1.6vw]' justify='center'>
                     <NavbarItem>
-                        <Link href='/service' aria-current="page" className='uppercase text-sm tracking-widest text-prim'>
+                        <Link href='/service' aria-current="page" className='uppercase text-[3vw] md:text-[1.1vw] tracking-[0.3vw] text-prim'>
                             Service
                         </Link>
                     </NavbarItem>
