@@ -71,7 +71,7 @@ export default function page() {
 
       <section className='bg-half-round bg-cover md:bg-contain bg-repeat-round w-full mt-[9.6vh] text-center py-[4vh] md:py-[10vh] px-[10vw] md:px-[20vw]'>
         <h2 className='text-[9vw]  md:text-[4.5vw]'><span className='text-emas italic'> Our </span> Services </h2>
-        <p className='text-[3vw] md:text-[1.1vw] text-center mt-[1.2vw] leading-[4.vh]'>Berbagai pilihan desain website yang dapat disesuaikan dengan kebutuhan acara dan tema.</p>
+        <p className='text-[3vw] md:text-[1.1vw] text-center mt-[1.2vw] leading-[2.5vh] md:leading-[4.4vh]'>Berbagai pilihan desain website yang dapat disesuaikan dengan kebutuhan acara dan tema.</p>
         
         <div className='grid grid-cols-4 mb-[3vh] md:mb-[7.5vh] mt-[3vh] md:mt-[2vw]'>
           <div>
@@ -109,7 +109,7 @@ export default function page() {
           </div>
 
           <div className='text-right col-span-3'>
-            <h2 className='text-[6vw] md:text-[4.5vw]'><span className='text-emas italic'> Our </span> Testimony </h2>
+            <h2 className='text-[5vw] md:text-[4.5vw]'><span className='text-emas italic'> Our </span> Testimony </h2>
           </div>
 
           <div className='col-span-4 flex justify-between w-full h-full overflow-hidden mt-[3.6vw] gap-[1.6vw]'>
