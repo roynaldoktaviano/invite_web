@@ -5,7 +5,7 @@ export default function footerNav() {
     <footer className='relative w-full h-auto'>
     <div className='bg-emas w-3/4 mx-auto py-[2vh] md:py-[6vh] text-center rounded-md relative z-20'>
       <h2 className='text-white text-[5vw] md:text-[4.5vw]'><span className='text-brown italic'> Create Your </span> Digital Invitation </h2>
-      <p className='text-white mt-[2vh] mb-[2vh] md:mb-[5vh] text-[2vw] md:text-[1.1vw]'>Hubungi kami  & konsultasikan kebutuhan undangan digital Anda!</p>
+      <p className='text-white mt-[1] md:mt-[2vh] mb-[1vh] md:mb-[5vh] text-[2vw] md:text-[1.1vw]'>Hubungi kami  & konsultasikan kebutuhan undangan digital Anda!</p>
       <button  className='linkButton text-[2.5vw] md:text-[1.5vw] py-[0.5vh] md:py-[2vh] px-[3vw] hover:bg-brown transition-colors rounded-[2.4vw] border-[0.2vw] text-white border-white '> Whatsapp Kami</button>
     </div>
 
