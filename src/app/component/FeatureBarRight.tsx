@@ -16,11 +16,11 @@ export default function FeatureBarRight(props: any) {
         </div>
 
         <div className='col-span-2 text-left'>
-            <h3 className='text-[1.6vw]'>{props.namafitur}</h3>
+            <h3 className='text-[2vw] md:text-[1.6vw]'>{props.namafitur}</h3>
         </div>
         
         <div className='col-span-3'>
-            <p className='text-justify text-[1.1vw] leading-[4vh]'>{props.deskripsi}</p>
+            <p className='text-justify text-[2vw] md:text-[1.1vw] md:leading-[4vh]'>{props.deskripsi}</p>
         </div>
     </div>
   )

@@ -6,13 +6,13 @@ import FeatureBarRight from '../component/FeatureBarRight'
 
 export default function page() {
     return (
-        <section className='mb-[10vh]'>
+        <section className='mb-[10vh] w-full'>
 
             {/* Hero Section */}
             <section className='hero w-full h-fit md:h-screen  flex  relative  '>
-                <div className='w-full h-[37vh] md:h-screen absolute bg-half-round bg-cover md:bg-contain bg-no-repeat md:bg-repeat-round grid grid-cols-2 items-center px-[10vh]'>
-                    <div>
-                        <Image 
+                <div className='w-full h-screen md:h-screen md:absolute bg-half-round bg-cover md:bg-contain bg-no-repeat md:bg-repeat-round grid grid-cols-1 md:grid-cols-2 md:items-center px-[2vh] md:px-[10vh] py-[8vh] md:py-0'>
+                    <div className='pt-8 md:pt-0'>
+                        <Image  
                             src='/service.png'
                             width={400}
                             height={300}
@@ -21,7 +21,7 @@ export default function page() {
                         />
                     </div>
                     <div>
-                        <h1 className='text-prim text-[7vw] md:text-[4.5vw] text-left mb-[2vh] md:mb-[6vh] leading-tight'> <span className='italic text-emas'>Our</span> Services </h1>
+                        <h1 className='text-prim text-[8vw] md:text-[4.5vw] text-left mb-[2vh] md:mb-[6vh] leading-tight'> <span className='italic text-emas'>Our</span> Services </h1>
 
                         <p className='text-[3vw] md:text-[1.1vw] text-left mt-[2vh] md:mt-[4.4vh] leading-[2.5vh] md:leading-[4vh]'>Invite You hadir memberikan solusi untuk membantu & memudahkan anda dalam membagikan undangan ke para kerabat terdekat dengan cara yang lebih simple, kekinian & fleksibel dalam bentuk undangan digital.</p>
 
@@ -33,25 +33,25 @@ export default function page() {
             </section>
 
             {/* USP Section */}
-            <div className='px-[40vh] mt-[-15vh] relative z-20'>
-                <div className='flex items-center justify-between mt-[5.6vh]'>
+            <div className='px-[5vw] md:px-[40vh] w-full mt-[-15vh] relative z-20'>
+                <div className='grid grid-cols-2 gap-[7vh] md:flex items-center justify-between mt-[5.6vh]'>
                     <div className='text-center'>
-                        <div className='w-[10vw] h-[10vw] md:w-[9vw] md:h-[9vw] bg-emas rounded-full mx-auto flex'>
-                        <img src="./icon1.png" alt="Desain Premium dan Eksklusif" className='w-[4.4vw] m-auto' />
+                        <div className='w-[14vw] h-[14vw] md:w-[9vw] md:h-[9vw] bg-emas rounded-full mx-auto flex'>
+                        <img src="./icon1.png" alt="Desain Premium dan Eksklusif" className='w-[7vw] md:w-[4.4vw] m-auto' />
                         </div>
                         <p className='mt-6 text-[3vw] md:text-[1.1vw]'>Desain Premium & Eksklusif</p>
                     </div>
 
-                    <div>
-                        <div className='w-[10vw] h-[10vw] md:w-[9vw] md:h-[9vw] bg-emas rounded-full mx-auto flex'>
-                        <img src="./icon2.png" alt="Desain Premium dan Eksklusif" className='w-[4.4vw] m-auto' />
+                    <div className='text-center'>
+                        <div className='w-[14vw] h-[14vw] md:w-[9vw] md:h-[9vw] bg-emas rounded-full mx-auto flex'>
+                        <img src="./icon2.png" alt="Desain Premium dan Eksklusif" className='w-[7vw] md:w-[4.4vw] m-auto' />
                         </div>
                         <p className='mt-6 text-[3vw] md:text-[1.1vw]'>Tema yang Beragam</p>
                     </div>
 
-                    <div>
-                        <div className='w-[10vw] h-[10vw] md:w-[9vw] md:h-[9vw] bg-emas rounded-full mx-auto flex'>
-                        <img src="./icon3.png" alt="Desain Premium dan Eksklusif" className='w-[4.4vw] m-auto' />
+                    <div className='text-center col-span-2 md:col-span-1'>
+                        <div className='w-[14vw] h-[14vw] md:w-[9vw] md:h-[9vw] bg-emas rounded-full mx-auto flex'>
+                        <img src="./icon3.png" alt="Desain Premium dan Eksklusif" className='w-[7vw] md:w-[4.4vw] m-auto' />
                         </div>
                         <p className='mt-6 text-[3vw] md:text-[1.1vw]'>Fitur Undangan Lengkap</p>
                     </div>
@@ -59,8 +59,8 @@ export default function page() {
             </div>
 
             {/* Invitation Section */}
-            <section className='mt-[15vh]'>
-                <div className='px-[10vw] mb-[15vh]'>
+            <section className='mt-[7vh] md:mt-[15vh]'>
+                <div className='px-[10vw] mb-[7vh] md:mb-[15vh]'>
                     <h2 className='text-[9vw] text-center md:text-[4.5vw]'> <span className='text-emas italic'> Choose</span> Invitation </h2>
                     <p className='text-[3vw] md:text-[1.1vw] text-center mt-[2vh] md:mt-[2vh] leading-[2.5vh] md:leading-[4vh]'>Invite You hadir memberikan solusi untuk membantu & memudahkan anda dalam membagikan undangan ke para kerabat terdekat dengan cara yang lebih simple, kekinian & fleksibel dalam bentuk undangan digital.</p>
                 </div>
@@ -68,7 +68,7 @@ export default function page() {
                 <div className='grid grid-cols-3 px-[4.5vw] gap-[3.6vw] mt-[1vh] w-full h-full'>
                 <div className='w-full relative h-fit'>
                     <img src="./img_4.png" alt="Undangan Acara Wedding" className='w-[25vw] ml-auto' />
-                    <img src="./flower.png" alt="Flower Vector" className='w-[12vw] absolute bottom-[72vh] md:bottom-[-9vh] z-[-1]' />
+                    <img src="./flower.png" alt="Flower Vector" className='w-[12vw] absolute bottom-[-2vh] md:bottom-[-9vh] z-[-1]' />
                 </div>
 
                 <div className='w-full relative pt-[5vh] md:pt-[9.6vh] h-fit'>
@@ -84,14 +84,14 @@ export default function page() {
             </section>
 
             {/* Special Feature */}
-            <section className='mt-[10vh]'>
+            <section className='mt-[16vh] md:mt-[10vh]'>
                 <div className='px-[10vw] mb-[15vh]'>
                     <h2 className='text-[9vw] text-center md:text-[4.5vw]'> <span className='text-emas italic'> Special</span> Feature </h2>
                     <p className='text-[3vw] md:text-[1.1vw] text-center mt-[2vh] md:mt-[2vh] leading-[2.5vh] md:leading-[4vh]'>Invite You hadir memberikan solusi untuk membantu & memudahkan anda dalam membagikan undangan ke para kerabat terdekat dengan cara yang lebih simple, kekinian & fleksibel dalam bentuk undangan digital.</p>
                 </div>
 
-                <div className='grid grid-cols-3 gap-[4vw] h-screen justify-between items-center px-[10vw]'>
-                    <div className='flex flex-col justify-between h-screen'>
+                <div className='grid grid-cols-2 md:grid-cols-3 gap-[9vw] md:gap-[4vw] h-fit md:h-screen md:justify-between items-start md:items-center px-[10vw]'>
+                    <div className='flex flex-col gap-y-[6vh] md:gap-y-0 md:justify-between h-fit md:h-screen'>
                         <FeatureBar 
                         namafitur='Custom Nama Tamu'
                         gambar='/fitur_1.png'
@@ -121,7 +121,7 @@ export default function page() {
 
 
                     </div>
-                    <div>
+                    <div className='h-fit hidden md:block'>
                         <Image
                         src ='/phone.png'
                         width={300}
@@ -130,7 +130,7 @@ export default function page() {
                         className='w-[30vw] mx-auto'
                         />
                     </div>
-                    <div className='flex flex-col justify-between h-screen'>
+                    <div className='flex flex-col gap-y-[6vh] md:gap-y-0 md:justify-between h-fit md:h-screen '>
                         <FeatureBarRight
                         namafitur='Reservasi'
                         gambar='/fitur_5.png'
