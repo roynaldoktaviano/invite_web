@@ -93,7 +93,7 @@ export default function page() {
 
       <section className='mt-[5vh] md:mt-[9vh] grid grid-cols-3 px-[10vw] md:px-[15vw]'>
         <div className=''>
-          <img src="./couple.png" alt="Our Testimony" className='w-[29vw]' />
+          <img src="./couples.png" alt="Our Testimony" className='w-[29vw]' />
         </div>
 
         <div className='grid grid-cols-4 items-center h-fit col-span-2'> 

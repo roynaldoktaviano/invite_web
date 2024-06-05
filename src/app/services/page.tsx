@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import ButtonGold from '../component/ButtonGold'
+import FeatureBar from '../component/FeatureBar'
+import FeatureBarRight from '../component/FeatureBarRight'
 
 export default function page() {
     return (
@@ -11,7 +13,7 @@ export default function page() {
                 <div className='w-full h-[37vh] md:h-screen absolute bg-half-round bg-cover md:bg-contain bg-no-repeat md:bg-repeat-round grid grid-cols-2 items-center px-[10vh]'>
                     <div>
                         <Image 
-                            src='/services.png'
+                            src='/service.png'
                             width={400}
                             height={300}
                             alt='Digital Invitation Services'
@@ -65,16 +67,16 @@ export default function page() {
 
                 <div className='grid grid-cols-3 px-[4.5vw] gap-[3.6vw] mt-[1vh] w-full h-full'>
                 <div className='w-full relative h-fit'>
-                    <img src="./img_1.png" alt="Undangan Acara Wedding" className='w-[25vw] ml-auto' />
+                    <img src="./img_4.png" alt="Undangan Acara Wedding" className='w-[25vw] ml-auto' />
                     <img src="./flower.png" alt="Flower Vector" className='w-[12vw] absolute bottom-[72vh] md:bottom-[-9vh] z-[-1]' />
                 </div>
 
                 <div className='w-full relative pt-[5vh] md:pt-[9.6vh] h-fit'>
-                    <img src="./img_2.png" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mx-auto' />
+                    <img src="./img_5.png" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mx-auto' />
                 </div>
 
                 <div className='w-full relative h-fit'>
-                    <img src="./img_3.png" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mr-auto' />
+                    <img src="./img_6.png" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mr-auto' />
                     <img src="./flower_2.png" alt="Flower Vector" className='w-[12vw] absolute top-[-2.5vh] md:top-[-12vh] z-[-1] right-0' />
                 </div>
 
@@ -88,9 +90,36 @@ export default function page() {
                     <p className='text-[3vw] md:text-[1.1vw] text-center mt-[2vh] md:mt-[2vh] leading-[2.5vh] md:leading-[4vh]'>Invite You hadir memberikan solusi untuk membantu & memudahkan anda dalam membagikan undangan ke para kerabat terdekat dengan cara yang lebih simple, kekinian & fleksibel dalam bentuk undangan digital.</p>
                 </div>
 
-                <div className='flex gap-[4vw] justify-between items-center px-[10vw]'>
-                    <div>
-                        <p>Test</p>
+                <div className='grid grid-cols-3 gap-[4vw] h-screen justify-between items-center px-[10vw]'>
+                    <div className='flex flex-col justify-between h-screen'>
+                        <FeatureBar 
+                        namafitur='Custom Nama Tamu'
+                        gambar='/fitur_1.png'
+                        deskripsi='Cantumkan nama tamu yang akan diundang
+                        pada halaman depan undangan'
+                        />
+                        <FeatureBar 
+                        namafitur='Countdown Timer'
+                        gambar='/fitur_2.png'
+                        deskripsi='Hitung mundur acara spesialmu sebagai
+                        pengingat kepada para tamu undangan'
+                        />
+
+                        <FeatureBar 
+                        namafitur='Galeri'
+                        gambar='/fitur_3.png'
+                        deskripsi='Anda dapat menambahkan foto atau video
+                        terbaik pada desain undangan'
+                        />
+                        
+                        <FeatureBar 
+                        namafitur='Rekening/E-wallet'
+                        gambar='/fitur_4.png'
+                        deskripsi='Mudahkan tamu undangan mengirimkan
+                        tanda kasih via transfer bank/ E-wallet'
+                        />
+
+
                     </div>
                     <div>
                         <Image
@@ -98,10 +127,39 @@ export default function page() {
                         width={300}
                         height={600}
                         alt='Invite You Special Feature'
+                        className='w-[30vw] mx-auto'
                         />
                     </div>
-                    <div>
-                        <p>Test</p>
+                    <div className='flex flex-col justify-between h-screen'>
+                        <FeatureBarRight
+                        namafitur='Reservasi'
+                        gambar='/fitur_5.png'
+                        deskripsi='Tamu undangan dapat memberikan
+                        konfirmasi kehadirannya dalam acara anda'
+                        />
+                        <FeatureBarRight
+                        namafitur='Integrasi Kalender'
+                        gambar='/fitur_6.png'
+                        deskripsi='Tamu dapat menyimpan tanggal acara di
+                        calendar supaya tidak melewatkan acaramu'
+                        />
+
+                        <FeatureBarRight 
+                        namafitur='Lagu / Instrumen'
+                        gambar='/fitur_7.png'
+                        deskripsi='Jadikan undangan lebih emosional dengan
+                        lagu atau instrumen favorit anda'
+                        />
+                        
+                        <FeatureBarRight
+                        namafitur='Fitur Ucapan'
+                        gambar='/fitur_8.png'
+                        deskripsi='Tamu undangan dapat memberikan ucapan
+                        dan doa terbaik secara langsung di dalam
+                        undangan'
+                        />
+
+
                     </div>
                 </div>
             </section>
