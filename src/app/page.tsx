@@ -14,21 +14,21 @@ export default function page() {
           <div className='text-center mt-[11vh] md:mt-[18vh] h-fit'>
             <h1 className='text-prim text-[7vw] md:text-[4.5vw] px-[12vw] md:px-[26vw] text-center mb-[2vh] md:mb-[6vh] leading-tight'>Create <span className='italic text-emas'> Special </span> Invitation for Your <span className='italic text-emas'> Special </span> Day</h1>        
 
-            <ButtonGold link='/' label='Order Now' />
+            <ButtonGold link='https://api.whatsapp.com/send/?phone=%2B6285235622445&text&type=phone_number&app_absent=0' label='Order Now' />
 
             <div className='grid grid-cols-3 px-[4.5vw] gap-[3.6vw] mt-[4vh] w-full h-full'>
               <div className='w-full relative h-fit'>
-                <img src="./img_1.png" alt="Undangan Acara Wedding" className='w-[25vw] ml-auto' />
-                <img src="./flower.png" alt="Flower Vector" className='w-[12vw] absolute bottom-[72vh] md:bottom-[-9vh] z-[-1]' />
+                <img src="./img_1.webp" alt="Undangan Acara Wedding" className='w-[25vw] ml-auto' />
+                <img src="./flower.webp" alt="Flower Vector" className='w-[12vw] absolute bottom-[72vh] md:bottom-[-9vh] z-[-1]' />
               </div>
 
               <div className='w-full relative pt-[5vh] md:pt-[9.6vh] h-fit'>
-                <img src="./img_2.png" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mx-auto' />
+                <img src="./img_2.webp" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mx-auto' />
               </div>
 
               <div className='w-full relative h-fit'>
-                <img src="./img_3.png" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mr-auto' />
-                <img src="./flower_2.png" alt="Flower Vector" className='w-[12vw] absolute top-[-2.5vh] md:top-[-12vh] z-[-1] right-0' />
+                <img src="./img_3.webp" alt="Undangan Acara Wedding" className=' z-20 w-[25vw] mr-auto' />
+                <img src="./flower_2.webp" alt="Flower Vector" className='w-[12vw] absolute top-[-2.5vh] md:top-[-12vh] z-[-1] right-0' />
               </div>
 
             </div>

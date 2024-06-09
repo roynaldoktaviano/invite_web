@@ -21,7 +21,7 @@ module.exports = {
     },
     extend: {
       backgroundImage : {
-        'half-round' : 'url("/bg-con.png")'
+        'half-round' : 'url("/bg-con.webp")'
       }
     },
   },

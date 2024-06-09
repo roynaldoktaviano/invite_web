@@ -13,10 +13,10 @@ export default function HeadNav() {
     
     return (
         <Navbar onMenuOpenChange={setMenuOpen} className='absolute w-full md:w-[40vw] py-[1vh] md:py-[3vh] mx-auto bg-cream'>
-            <NavbarContent className='hidden sm:flex gap-[1.6vw]' justify='center'>
+            <NavbarContent className=' gap-[1.6vw]' justify='center'>
                 <NavbarMenuToggle aria-label={iseMenuOpen ? "Close Menu" : "Open Menu"} className='sm:hidden'/>
                     <NavbarItem>
-                        <Link href='/' aria-current="page" className='uppercase text-[1.1vw] tracking-[0.3vw] text-prim'>
+                        <Link href='/' aria-current="page" className='uppercase text-[3vw] md:text-[1.1vw] tracking-[0.3vw] text-prim'>
                             Home
                         </Link>
                     </NavbarItem>
@@ -24,7 +24,7 @@ export default function HeadNav() {
 
             <NavbarContent className='' justify='center'>
                 <NavbarBrand>
-                    <img src="./logo.png" alt="Logo Invite You" className='w-[20vw] md:w-[15vw]'/>
+                    <img src="./logo.webp" alt="Logo Invite You" className='w-[20vw] md:w-[15vw]'/>
                 </NavbarBrand>
             </NavbarContent>
 

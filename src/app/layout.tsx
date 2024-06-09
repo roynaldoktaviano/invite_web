@@ -10,6 +10,9 @@ const inter = Libre_Franklin({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Invite You Invitation",
   description: "Invite You - Create Your Digital Invitation",
+  openGraph: {
+    images: ['/img_1.webp'],
+  },
 };
 
 export default function RootLayout({
