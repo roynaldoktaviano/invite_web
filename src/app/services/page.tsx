@@ -3,6 +3,7 @@ import Image from 'next/image'
 import ButtonGold from '../component/ButtonGold'
 import FeatureBar from '../component/FeatureBar'
 import FeatureBarRight from '../component/FeatureBarRight'
+import TemplateInv from '../component/TemplateInv'
 
 export default function page() {
     return (
@@ -80,6 +81,28 @@ export default function page() {
                     <img src="./flower_2.webp" alt="Flower Vector" className='w-[12vw] absolute top-[-2.5vh] md:top-[-12vh] z-[-1] right-0' />
                 </div>
 
+                </div>
+            </section>
+
+            {/* Template List */}
+            <section className='mt-[16vh] md:mt-[10vh]'>
+                <div className='px-[10vw] mb-[15vh]'>
+                    <h2 className='text-[9vw] text-center md:text-[4.5vw] mb-6'> <span className='text-emas italic'> Invitation</span> Template </h2>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+                        <TemplateInv link='/temp1.webp' name='Elegant Inv.' alt='Template Wedding Invitation' button='https://wedding-daniel-stefani.netlify.app/'/>
+
+                        <TemplateInv link='/temp2.webp' name='Classic Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/template1/'/>
+
+
+                        <TemplateInv link='/temp3.webp' name='Classic Cyan Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/template-cyan/'/>
+
+                        <TemplateInv link='/temp4.webp' name='Classic Violet Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/template-violet/'/>
+
+                        <TemplateInv link='/temp5.webp' name='Lovely Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/lovely-template/'/>
+                        
+
+                        <TemplateInv link='/temp6.png' name='Lovely Basic Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/lovely-2/'/>
+                    </div>
                 </div>
             </section>
 
