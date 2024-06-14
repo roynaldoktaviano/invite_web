@@ -102,6 +102,15 @@ export default function page() {
                         
 
                         <TemplateInv link='/temp6.png' name='Lovely Basic Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/lovely-2/'/>
+                    
+                        <TemplateInv link='/temp7.jpg' name='White Clean Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/white-clean/'/>
+
+                        <TemplateInv link='/temp8.jpg' name='Clean Image Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/clean-image/'/>
+
+                        <TemplateInv link='/temp9.png' name='Simple Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/simple/'/>
+
+                        <TemplateInv link='/temp10.png' name='Pastel Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/pastel/'/>
+
                     </div>
                 </div>
             </section>
