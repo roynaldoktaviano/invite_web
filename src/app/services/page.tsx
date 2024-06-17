@@ -28,7 +28,9 @@ export default function page() {
 
                         <p className='text-[3vw] md:text-[1.1vw] text-left mt-[2vh] md:mt-[4.4vh] leading-[2.5vh] md:leading-[4vh] mb-[5vh]'>Invite You menyediakan layanan pembuatan undangan digital untuk berbagai acara spesial, seperti pernikahan, tunangan, ulang tahun, dan acara-acara lainnya.</p>
                         
-                        <ButtonGold link='/' label='Order Now' />
+                        <ButtonGold link='https://api.whatsapp.com/send/?phone=%2B6285235622445&text&type=phone_number&app_absent=0' label='Order Now' />
+
+                        
                     </div>
                 </div>
             </section>
