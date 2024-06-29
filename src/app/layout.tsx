@@ -4,6 +4,7 @@ import "./globals.css";
 import Provider from "./provider";
 import footerNav from "./component/footerNav";
 import HeadNav from "./component/headNav";
+import GoogleAnalytics from "./component/GoogleAnalytics";
 
 const inter = Libre_Franklin({ subsets: ["latin"] });
 
@@ -22,17 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F77JHZ52R0"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-F77JHZ52R0');
-        </script>
-      </head>
+      <GoogleAnalytics/>
       <body className={inter.className}>
         <Provider>
           <HeadNav/>
