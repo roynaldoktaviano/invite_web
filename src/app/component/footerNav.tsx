@@ -13,10 +13,10 @@ export default function footerNav() {
       <img src="./logo.webp" alt="Invite You - Jasa Pembuatan Undangan Digital" className='w-[24vw] mb-[2vh] md:mb-[4vh] mx-auto' />
       <p className='text-[2.5vw] md:text-[1.1vw]'>Invite You menyediakan layanan pembuatan undangan digital untuk berbagai acara spesial anda, seperti pernikahan, tunangan, ulang tahun, dan acara-acara lainnya.</p>
       <div className='flex mt-[3vh] md:mt-[6vh] gap-[1.6vw] justify-center'>
-        {/* <a href="">
+        <a href="https://www.instagram.com/invite.you.id/"  target='_blank'>
           <img src="./ig.png" alt="Instagram Invite You" className='w-[4vw] md:w-[3vw]' />
         </a>
-        <a href="">
+        {/* <a href="">
           <img src="./Tiktok.png" alt="Instagram Invite You" className='w-[4vw] md:w-[3vw]' />
         </a> */}
         <a href="https://api.whatsapp.com/send/?phone=%2B6285235622445&text&type=phone_number&app_absent=0" target='_blank'>
