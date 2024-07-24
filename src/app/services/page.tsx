@@ -146,12 +146,12 @@ export default function page() {
                         terbaik pada desain undangan'
                         />
                         
-                        <FeatureBar 
+                        {/* <FeatureBar 
                         namafitur='Rekening/E-wallet'
                         gambar='/fitur_4.png'
                         deskripsi='Mudahkan tamu undangan mengirimkan
                         tanda kasih via transfer bank/ E-wallet'
-                        />
+                        /> */}
 
 
                     </div>
@@ -165,17 +165,23 @@ export default function page() {
                         />
                     </div>
                     <div className='flex flex-col gap-y-[6vh] md:gap-y-0 md:justify-between h-fit md:h-screen '>
-                        <FeatureBarRight
+                        {/* <FeatureBarRight
                         namafitur='Reservasi'
                         gambar='/fitur_5.png'
                         deskripsi='Tamu undangan dapat memberikan
                         konfirmasi kehadirannya dalam acara anda'
-                        />
-                        <FeatureBarRight
+                        /> */}
+                        {/* <FeatureBarRight
                         namafitur='Integrasi Kalender'
                         gambar='/fitur_6.png'
                         deskripsi='Tamu dapat menyimpan tanggal acara di
                         calendar supaya tidak melewatkan acaramu'
+                        /> */}
+                        <FeatureBar 
+                        namafitur='Rekening/E-wallet'
+                        gambar='/fitur_4.png'
+                        deskripsi='Mudahkan tamu undangan mengirimkan
+                        tanda kasih via transfer bank/ E-wallet'
                         />
 
                         <FeatureBarRight 
