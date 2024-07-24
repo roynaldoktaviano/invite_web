@@ -177,7 +177,7 @@ export default function page() {
                         deskripsi='Tamu dapat menyimpan tanggal acara di
                         calendar supaya tidak melewatkan acaramu'
                         /> */}
-                        <FeatureBar 
+                        <FeatureBarRight 
                         namafitur='Rekening/E-wallet'
                         gambar='/fitur_4.png'
                         deskripsi='Mudahkan tamu undangan mengirimkan
