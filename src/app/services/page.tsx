@@ -113,6 +113,12 @@ export default function page() {
 
                         <TemplateInv link='/temp10.png' name='Pastel Inv.' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/pastel/'/>
 
+                        <TemplateInv link='/pink.png' name='Pink Islamic' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/template_2/'/>
+                        
+                        <TemplateInv link='/orange.png' name='Orange Islamic' alt='Template Wedding Invitation' button='https://roynaldoktaviano.github.io/template_1/'/>
+
+
+
                     </div>
                 </div>
             </section>
